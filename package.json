@@ -30,21 +30,20 @@
   },
   "homepage": "https://github.com/sangcnguyen/playwright-demo#readme",
   "dependencies": {
-    "playwright": "^1.48.1"
+    "playwright": "^1.51.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.48.1",
-    "@typescript-eslint/eslint-plugin": "^8.11.0",
-    "@typescript-eslint/parser": "^8.11.0",
-    "allure-commandline": "^2.31.0",
-    "allure-playwright": "^3.0.5",
-    "dotenv": "^16.4.5",
-    "eslint": "^9.13.0",
-    "eslint-plugin-playwright": "^2.0.0",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "playwright-slack-report": "^1.1.88",
-    "prettier": "^3.3.3",
-    "typescript-eslint": "^8.11.0"
+    "@playwright/test": "^1.51.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.22.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.26.1"
   }
 }
