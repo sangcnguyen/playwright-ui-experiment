@@ -1,6 +1,6 @@
 import {expect, type Page} from '@playwright/test';
-import {SearchInput} from 'src/components/SearchInput';
 import BasePage from './BasePage';
+import {SearchInput} from '../components/SearchInput';
 
 export class SearchResultPage extends BasePage {
   readonly page: Page;

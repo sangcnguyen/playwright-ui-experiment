@@ -1,20 +1,18 @@
 import {Page} from 'playwright';
 import {expect} from 'playwright/test';
-import {SearchInput} from 'src/components/SearchInput';
+import {SearchInput} from '../components/SearchInput';
 import BasePage from './BasePage';
 
 export class HomePage extends BasePage {
-  readonly page: Page;
   readonly searchInput: SearchInput;
 
   constructor(rootPage: Page) {
     super(rootPage);
-    this.page = rootPage;
-    this.searchInput = new SearchInput(this.page);
+    this.searchInput = new SearchInput(this.rootPage);
   }
 
   async goTo() {
-    await this.page.goto(`${process.env.BASE_URL}`);
+    await this.rootPage.goto(`${process.env.BASE_URL}`);
   }
 
   async queryContent(query: string) {

@@ -1,5 +1,5 @@
-import {test} from 'src/core/baseTest';
 import 'dotenv/config';
+import {test} from '../core/baseTest';
 
 test.describe(`All related to the search function`, () => {
   test('Suggested list should be appeared', async ({homePage}) => {
