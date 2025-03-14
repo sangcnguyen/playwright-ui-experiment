@@ -22,6 +22,7 @@ export default [
       ...playwright.configs['flat/recommended'].rules,
       'no-console': 'warn',
       '@typescript-eslint/no-floating-promises': 'error',
+      '@typescript-eslint/no-explicit-any': 'off',
       'playwright/no-skipped-test': 'off',
       'playwright/expect-expect': 'off',
       'playwright/no-wait-for-selector': 'off'
